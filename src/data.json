@@ -1,0 +1,136 @@
+{
+    "nav":[
+        {
+            "id":1,
+            "logo":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713809230/cvcrpzxfd3e71n9u7vcr.png"
+        },
+        {
+            "id":2,
+            "dashbord_icon":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713810503/hx2pp6un9bw4dzqm5od0.svg"
+        },
+        {
+            "id":3,
+            "export_icon":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713810728/jagajxiwt4aieuw26ay9.svg"
+        },
+        {
+            "id":4,
+            "wallet_icon":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713811038/fzcg2lhzpgadatnsddsj.svg"
+        },
+        {
+            "id":5,
+            "setting_icon":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713811120/j0kfad7ch6orck9i0hh0.svg"
+        },
+        {
+            "id":6,
+            "account_icon":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713811162/sbolmmujppoimtmw2chx.svg"
+        },
+        {
+            "id":7,
+            "mode_icon":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713813855/d1z0msxrtqeysq91tpwo.svg"
+        }
+    ],
+    "sideBars":[
+        {"id": 1,
+        "dashbord" : "https://res.cloudinary.com/dheib2lbf/image/upload/v1713810503/hx2pp6un9bw4dzqm5od0.svg",
+        "text": "Dashbord"
+    },
+        {"id":2,
+        "explore" : "https://res.cloudinary.com/dheib2lbf/image/upload/v1713810728/jagajxiwt4aieuw26ay9.svg",
+        "text": "Explore"
+    },
+        {"id":3,
+        "wallet" : "https://res.cloudinary.com/dheib2lbf/image/upload/v1713811038/fzcg2lhzpgadatnsddsj.svg",
+        "text": "Wallet"
+    },
+        {"id":4,
+        "setting" : "https://res.cloudinary.com/dheib2lbf/image/upload/v1713811120/j0kfad7ch6orck9i0hh0.svg",
+        "text": "Setting"
+    },
+        {"id":5, 
+        "compte" : "https://res.cloudinary.com/dheib2lbf/image/upload/v1713811162/sbolmmujppoimtmw2chx.svg",
+        "text": "Compte"
+    }
+    ],
+    "sectionHero":[
+        {
+            "id":1,
+            "imageHero":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713829912/xvnmvxtnkppqzao0apde.jpg"
+        }
+    ],
+    "account":[
+        {
+            "id":1,
+            "profil":"https://res.cloudinary.com/dheib2lbf/image/upload/v1713829912/xvnmvxtnkppqzao0apde.jpg",
+            "firstName":"Djo",
+            "secondName":"Kadima",
+            "typeAccount":"Agent immobilier"
+        }
+    ],
+        "proprety": [
+        {
+            "id":1,
+            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
+            "city":"Kinshasa",
+            "Commone":"Lingwala",
+            "typePropriety": "Parccelle",
+            "price": 50000
+        },
+        {
+            "id":2,
+            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332802/rpd9aobrhbla7hxbfxu3.jpg",
+            "city":"Kinshasa",
+            "Commone":"Lingwala",
+            "typePropriety": "Maison",
+            "price": 200
+        },
+        {
+            "id":3,
+            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
+            "city":"Kinshasa",
+            "Commone":"Lingwala",
+            "typePropriety": "Parccelle",
+            "price": 50000
+        },
+        {
+            "id":4,
+            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
+            "city":"Kinshasa",
+            "Commone":"Lingwala",
+            "typePropriety": "Parccelle",
+            "price": 50000
+        },
+        {
+            "id":5,
+            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
+            "city":"Kinshasa",
+            "Commone":"Lingwala",
+            "typePropriety": "Parccelle",
+            "price": 50000
+        },
+        {
+            "id":6,
+            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
+            "city":"Kinshasa",
+            "Commone":"Lingwala",
+            "typePropriety": "Parccelle",
+            "price": 50000
+        },
+        {
+            "id":7,
+            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
+            "city":"Kinshasa",
+            "Commone":"Lingwala",
+            "typePropriety": "Parccelle",
+            "price": 50000
+        },
+        {
+            "id":8,
+            "imageProprety": "https://res.cloudinary.com/dheib2lbf/image/upload/v1714332488/hyfgmlpnuccejpxanfh2.jpg",
+            "city":"Kinshasa",
+            "Commone":"Lingwala",
+            "typePropriety": "Parccelle",
+            "price": 50000
+        }
+
+    ]
+}
