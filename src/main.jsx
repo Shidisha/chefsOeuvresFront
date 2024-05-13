@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import {RouterProvider, createBrowserRouter} from 'react-router-dom'
 import Home from './pages/public/home.jsx'
@@ -17,13 +16,10 @@ import Authentification from './pages/public/auth/authentification.jsx'
 import LoginPage from './pages/public/auth/loginPage.jsx'
 import SignupPage from './pages/public/auth/signupPage.jsx'
 
+
 const router = createBrowserRouter([
   
-  {
-    path: '/',
-    element: <App/>,
-    children: [
-      {
+        {
         path: '/',
         element: <Home/>, 
         children : [
@@ -64,25 +60,24 @@ const router = createBrowserRouter([
       {
         path: '*',
         element: <NotFound/>
-      }
-      
-    ]
-  },
-  {
-    path: '/',
-    element: <Authentification/>,
-    children: [
-      {
-        path:'/loginPage',
-        element:<LoginPage/>,
       },
       {
-        path:'/signupPage',
-        element:<SignupPage/>,
-      }
+        path: '/',
+        element: <Authentification/>,
+        children: [
+          {
+            path:'/loginPage',
+            element:<LoginPage/>,
+          },
+          {
+            path:'/signupPage',
+            element:<SignupPage/>,
+          }
+        ]
+    },
+      
     ]
-},
-])
+)
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router}/>

@@ -5,6 +5,9 @@ import SearchBar from './searchbar'
 import {useState, useEffect} from 'react'
 
 const Header = () =>{
+  //Gestion de darkMode
+
+
 
       //Gestion la fixation et defixation de la barre de navigation
       const [isNavbarFixed, setIsNavbarFixed] = useState(false)
@@ -25,7 +28,7 @@ const Header = () =>{
             };
           }, []);
     return(
-            <nav className ={`${isNavbarFixed?' flex justify-between w-full items-center py-2 pl-16 pr-16 z-50 fixed top-0 bg-white shadow-md': 'flex justify-between items-center py-2 pl-16 pr-16 border-b-2'}`}>
+                  <nav className = {`${isNavbarFixed?' maw-w-md flex justify-between w-full items-center py-2 pl-16 pr-16 z-50 fixed top-0 bg-white shadow-md': 'flex justify-between items-center py-2 pl-16 pr-16 border-b-2'}`}>
                  <div className=' flex gap-20'>
                       <Logo/>
                       <SearchBar/>
@@ -34,10 +37,9 @@ const Header = () =>{
                        <DashbordMenu/>
                  </div>
                  <div>
-                       <a href="#"><img className=' w-8' src={data.nav[6].mode_icon} alt="dashboard" /></a>
+                    <img className=' w-8' src={data.nav[6].mode_icon} alt="dashboard" />
                  </div>
-            </nav>
-             
+            </nav>    
     )
 }
 

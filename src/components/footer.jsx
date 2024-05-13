@@ -4,6 +4,7 @@ import facebIcon from '../assets/icons/LogosFacebook.svg'
 import whatsAppIcon from '../assets/icons/LogosWhatsappIcon.svg'
 import EndFooter from "./end_footer"
 import { useState, useEffect } from "react"
+import { NavLink } from "react-router-dom"
 
 const Footer = () =>{
           //Gestion la fixation et defixation de la barre de navigation
@@ -32,23 +33,23 @@ const Footer = () =>{
             </div>
             <div>
                 <ul className=" text-start">
-                    <li>Publier une propriété</li>
-                    <li>Sinscrire</li>
-                    <li>Devenir partenaire</li>
+                    <NavLink><li>Publier une propriété</li></NavLink>
+                    <NavLink><li>Sinscrire</li></NavLink>
+                    <NavLink><li>Devenir partenaire</li></NavLink>
                 </ul>
             </div>
             <div>
                 <ul className=" text-start">
-                    <li>Qui sommes-nous</li>
-                    <li>Nos projet davenir</li>
-                    <li>Contactez-nous</li>
+                    <NavLink><li>Qui sommes-nous</li></NavLink>
+                    <NavLink><li>Nos projet davenir</li></NavLink>
+                    <NavLink><li>Contactez-nous</li></NavLink>
                 </ul>
             </div>
             <div>
                 <ul className=" text-start">
-                    <li>Conditions dutilisation</li>
-                    <li>Protection de données</li>
-                    <li>FAQs</li>
+                    <NavLink><li>Conditions dutilisation</li></NavLink>
+                    <NavLink><li>Protection de données</li></NavLink>
+                    <NavLink><li>FAQs</li></NavLink>
                 </ul>
             </div>
             <div>
@@ -57,9 +58,9 @@ const Footer = () =>{
                         <li>Nous suivre sur:</li>
                     </div>
                     <div className="flex gap-2">
-                        <img className=" h-6 w-6" src={youtIcon} alt="icon youtub" />
-                        <img className=" h-6 w-6" src={whatsAppIcon} alt="icon Whatsapp" />
-                        <img className=" h-6 w-6" src={facebIcon} alt="icon facebook" />
+                        <a href="https://www.youtube.com/channel/UCQgDhpMTAqyXLo2_Mtj5b_g" target="_blank" rel="noopener noreferrer"><img className=" h-6 w-6" src={youtIcon} alt="icon youtub" /></a>
+                        <a href="http://https://web.facebook.com/" target="_blank" rel="noopener noreferrer"><img className=" h-6 w-6" src={facebIcon} alt="icon facebook" /></a>
+                        <a href="" target="_blank" rel="noopener noreferrer"><img className=" h-6 w-6" src={whatsAppIcon} alt="icon Whatsapp" /></a>
                     </div>
                 </ul>
             </div>
