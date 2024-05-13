@@ -10,7 +10,7 @@ const PagePublication = () =>{
             <div>
                 <button className=" p-2 border rounded-full">Publier</button>
             </div>
-
+                <h1>En cours de conception</h1>
             </main>
         </div>
     )

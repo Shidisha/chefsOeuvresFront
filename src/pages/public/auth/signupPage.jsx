@@ -24,8 +24,8 @@ const SignupPage = () =>{
         };
     return(
         <div className=' flex justify-center'>
-          <img className='absolute w-full h-full object-cover flex items-center content-center'  src={imgBg} alt="image background"/>
-              <div className='absolute border rounded-[20px] bg-slate-400 opacity-100 mt-16'>
+          <img className=' flex absolute w-full h-full object-cover items-center content-center'  src={imgBg} alt="image background"/>
+              <div className=' absolute border rounded-[20px] bg-slate-400 opacity-100 mt-16'>
 
                  <form className=' flex flex-col' onSubmit={handleSubmit(onSubmit)}>
                     <div className=' flex flex-col w-max gap-2 content-center items-center'>
