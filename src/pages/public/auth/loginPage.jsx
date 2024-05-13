@@ -8,7 +8,7 @@ const LoginPage = () =>{
     const { register, handleSubmit, formState: { errors } } = useForm();
 
   const onSubmit = () => {
-    //les gestion de la soumission du formulaire sera faite ici
+    //la gestion de la soumission du formulaire sera faite ici
     //telle que l'envoi de données d'identification au serveur
 
    // console.log(data);
