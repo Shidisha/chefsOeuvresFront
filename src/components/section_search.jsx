@@ -12,9 +12,9 @@ const SectionSearch = () =>{
     return (
         <div className=" flex flex-col  gap-4">
             <div className=" flex justify-between">
-                <input className=' focus:outline-none flex w-[540px] gap-4 border rounded-tr-[20px] rounded-tl-[20px] rounded-br-[20px] rounded-bl-[20px] py-1 pl-4 pr-4 pb-1' type="text" placeholder="Rechercher des propriétés" />
-                <div className=" absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
-                    <FontAwesomeIcon icon={faSearch} className="h-5 w-5 text-gray-400" />
+                <div className=" relative"> 
+                    <input className=' focus:outline-none flex w-[540px] h-10 gap-4 border rounded-tr-[20px] rounded-tl-[20px] rounded-br-[20px] rounded-bl-[20px] py-1 pl-10 pr-4 pb-1' type="text" placeholder="Rechercher des propriétés" />
+                    <FontAwesomeIcon icon={faSearch} className="h-5 w-5 text-gray-400 absolute top-3 left-3" />
                 </div>
                 <SelectType/>
                 <SelectSwitch/>
