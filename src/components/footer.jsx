@@ -59,8 +59,8 @@ const Footer = () =>{
                     </div>
                     <div className="flex gap-2">
                         <a href="https://www.youtube.com/channel/UCQgDhpMTAqyXLo2_Mtj5b_g" target="_blank" rel="noopener noreferrer"><img className=" h-6 w-6" src={youtIcon} alt="icon youtub" /></a>
-                        <a href="http://" target="_blank" rel="noopener noreferrer"></a><img className=" h-6 w-6" src={facebIcon} alt="icon facebook" />
-                        <a href="https://web.facebook.com/" target="_blank" rel="noopener noreferrer"><img className=" h-6 w-6" src={whatsAppIcon} alt="icon Whatsapp" /></a>
+                        <a href="http://https://web.facebook.com/" target="_blank" rel="noopener noreferrer"><img className=" h-6 w-6" src={facebIcon} alt="icon facebook" /></a>
+                        <a href="" target="_blank" rel="noopener noreferrer"><img className=" h-6 w-6" src={whatsAppIcon} alt="icon Whatsapp" /></a>
                     </div>
                 </ul>
             </div>

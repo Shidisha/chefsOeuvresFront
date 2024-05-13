@@ -23,11 +23,11 @@ const SignupPage = () =>{
               setSelectType(event.target.value);
         };
     return(
-        <div>
+        <div className=' flex justify-center'>
           <img className='absolute w-full h-full object-cover flex items-center content-center'  src={imgBg} alt="image background"/>
-              <div className='absolute border rounded-[20px] bg-slate-400 opacity-100 items-center content-center'>
+              <div className='absolute border rounded-[20px] bg-slate-400 opacity-100 mt-16'>
 
-                 <form className=' flex flex-col content-center' onSubmit={handleSubmit(onSubmit)}>
+                 <form className=' flex flex-col' onSubmit={handleSubmit(onSubmit)}>
                     <div className=' flex flex-col w-max gap-2 content-center items-center'>
                         <img className='w-16 h-12 pt-4' src={data.nav[0].logo} alt="logo du site" />
                             <h3 className=' pt-2 pb-2 font-bold text-white text-xl'>Veillez vous inscrire</h3>
@@ -51,7 +51,7 @@ const SignupPage = () =>{
                         <div className=' flex flex-col gap-2'>
                             <select className="border rounded-full py-1 pl-4 pr-4 pb-1" value={selectType} onChange={handleSelectChange}>
                                   <option value="">Type de compte</option>
-                                  <option value="option1">utilisateurs</option>
+                                  <option value="option1">Utilisateur</option>
                                   <option value="option2">Agent immobilier</option>
                             </select>
                             <input className=' p-2 rounded-full w-72' placeholder='téléphone' {...register("phone", { required: true })} />

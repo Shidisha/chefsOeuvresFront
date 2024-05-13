@@ -14,10 +14,10 @@ const LoginPage = () =>{
    // console.log(data);
   };
     return(
-        <div className='w-full h-full bg-cover items-center content-center opacity-90'>
+        <div className='w-full h-full bg-cover justify-center opacity-90'>
           <img className=' absolute w-full h-full object-cover'  src={imgBg} alt="image background"/>
           
-              <div className=' absolute border rounded-[20px] m-96 mt-40 bg-slate-400 opacity-100'>
+              <div className=' absolute border rounded-[20px] m-96 mt-40 bg-slate-400 opacity-100 justify-center'>
                  <form onSubmit={handleSubmit(onSubmit)}>
                     <div className=' flex flex-col w-max gap-2 content-center items-center'>
                     <img className='w-16 h-12 pt-4' src={data.nav[0].logo} alt="logo du site" />
