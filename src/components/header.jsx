@@ -25,7 +25,7 @@ const Header = () =>{
             };
           }, []);
     return(
-            <nav className ={`${isNavbarFixed?' flex justify-between w-full items-center py-2 pl-16 pr-16 z-50 fixed top-0 bg-white shadow-md': 'flex justify-between items-center py-2 pl-16 pr-16 border-b-2'}`}>
+            <nav className ={`${isNavbarFixed?' maw-w-md flex justify-between w-full items-center py-2 pl-16 pr-16 z-50 fixed top-0 bg-white shadow-md': 'flex justify-between items-center py-2 pl-16 pr-16 border-b-2'}`}>
                  <div className=' flex gap-20'>
                       <Logo/>
                       <SearchBar/>

@@ -16,6 +16,7 @@ import Authentification from './pages/public/auth/authentification.jsx'
 import LoginPage from './pages/public/auth/loginPage.jsx'
 import SignupPage from './pages/public/auth/signupPage.jsx'
 
+
 const router = createBrowserRouter([
   
         {
@@ -23,7 +24,7 @@ const router = createBrowserRouter([
         element: <Home/>, 
         children : [
           {
-            path:'/',
+            path:'/all_proprety',
             element: <AllProprety/>
           },
           {
